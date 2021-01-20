@@ -28,7 +28,7 @@ rm -rf out-system-libc
 mkdir out-system-libc
 
 ## Configure ##
-mes_cpu=x86_64
+mes_cpu=aarch64
 mes_bits=64
 cat > include/mes/config.h <<EOF
 #define SYSTEM_LIBC 1
